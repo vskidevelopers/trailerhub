@@ -5,7 +5,6 @@ import Truncate from "../utils/Truncate";
 function MovieCard({ movie, no }) {
   const baseUrl = "https://image.tmdb.org/t/p/original";
   const imageUrl = `${baseUrl}${movie.poster_path}`;
-  console.log("Movie No >>", no);
 
   return (
     <div className="flex w-auto mb-2 mr-3">

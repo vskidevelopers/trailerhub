@@ -12,7 +12,7 @@ function Rows({ moviescategory, fetchUrl }) {
     };
 
     fetchMovies();
-    console.log(movies);
+    console.log("Movies >>", movies);
   }, []);
 
   return (
