@@ -1,12 +1,13 @@
 import "./App.css";
 import Banner from "./components/Banner";
+import Navbar from "./components/Navbar";
 import Rows from "./components/Rows";
 import requests from "./utils/requests";
 
 function App() {
   return (
     <div className="App bg-stone-900 h-full">
-      {/* NAV */}
+      <Navbar />
       {/* BANNER */}
       <Banner />
       {/* ROWS*/}

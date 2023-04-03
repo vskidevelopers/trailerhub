@@ -7,7 +7,7 @@ function MovieCard({ movie, no }) {
   const imageUrl = `${baseUrl}${movie.poster_path}`;
 
   return (
-    <div className="flex w-auto mb-2 mr-3">
+    <>
       <div className="flex flex-col justify-end bg-gray-800 max-h-60">
         <span className="mb-2">
           <h4
@@ -33,7 +33,7 @@ function MovieCard({ movie, no }) {
           alt="..."
         />
       </div>
-    </div>
+    </>
   );
 }
 
